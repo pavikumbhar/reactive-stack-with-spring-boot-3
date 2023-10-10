@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      database: productdb
+      #host: host.docker.internal
+      host: localhost
+      port: 27017
+
+server:
+  port: 9191
+
+  reactor:
+    netty:
+      http:
+        client: DEBUG
+
+file:
+  upload-dir: D:\\workspace-sts-2023\\spring-reactive-3.0\\upload
